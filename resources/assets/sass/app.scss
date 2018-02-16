@@ -1,0 +1,22 @@
+
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+// @import "variables";
+
+// Bootstrap
+$icon-font-path: '/fonts/';
+@import "vendor/twbs/bootstrap-sass/assets/stylesheets/_bootstrap";
+// @import "bootstrap";
+
+// Gentelella
+@import '~gentelella/src/scss/custom';
+
+// font-awesome
+@import '~gentelella/vendors/font-awesome/scss/font-awesome';
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
