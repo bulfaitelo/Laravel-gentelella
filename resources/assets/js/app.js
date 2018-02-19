@@ -6,7 +6,8 @@
  */
 
 require('./bootstrap');
-require('gentelella')
+require('gentelella');
+require('./config');
 window.Vue = require('vue');
 
 /**

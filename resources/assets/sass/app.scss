@@ -10,14 +10,19 @@ $icon-font-path: '/fonts/bootstrap/';
 @import "vendor/twbs/bootstrap-sass/assets/stylesheets/_bootstrap";
 // @import "bootstrap";
 
-// Gentelella
-@import '~gentelella/src/scss/custom';
-
 // font-awesome
 @import '~gentelella/vendors/font-awesome/scss/font-awesome';
 
 // Animate CSS
-@import '~gentelella/vendors/animate.css/animate'
+@import '~gentelella/vendors/animate.css/animate';;
+
+// PNotify 
+@import '~gentelella/vendors/pnotify/dist/pnotify.css';
+// @import '~gentelella/vendors/pnotify/dist/pnotify.buttons.css';
+
+// Gentelella
+@import '~gentelella/src/scss/custom';
+
 
 // .navbar-laravel {
 //   background-color: #fff;

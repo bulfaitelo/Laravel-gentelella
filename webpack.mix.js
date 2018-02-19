@@ -15,3 +15,9 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.copyDirectory('vendor/twbs/bootstrap-sass/assets/fonts/bootstrap', 'public/fonts/bootstrap');
+
+mix.scripts([
+    // Pntify
+    'node_modules/gentelella/vendors/pnotify/dist/pnotify.js',
+    'node_modules/gentelella/vendors/pnotify/dist/pnotify.buttons.js'
+],  'public/js/components.js');
